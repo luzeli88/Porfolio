@@ -1,0 +1,50 @@
+.row {
+  padding: 20px;
+}
+div {
+  background-color:#f3fdfd ;
+  text-align: justify;
+}
+/* Estilo de la foto de perfil */
+
+@media (max-width:575px){
+  #fotodeperfil {
+      position: absolute;
+      width: 20%;
+      border-radius: 100%;
+      box-shadow: 3px 3px 3px grey;
+      top: 350px;
+      left: 40%;
+  }
+} 
+
+@media (min-width:576px){
+  #fotodeperfil {
+      position: absolute;
+      width: 15%;
+      border-radius: 100%;
+      box-shadow: 3px 3px 3px grey;
+      top: 300px;
+      left: 3%;
+  }
+}
+/* etiqueta nombre */
+#nombre {
+  font-weight: bold;
+  margin-top: 20%;
+  margin-left: 10px;
+  text-align: center;
+}
+/* etiqueta developer */
+#developer {
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+}
+h1 {
+  text-decoration: underline;
+   font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
