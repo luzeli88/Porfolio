@@ -10,6 +10,7 @@ import { EducacionComponent } from './educacion/educacion.component';
 import { HyssComponent } from './hyss/hyss.component';
 import { ProyectoComponent } from './proyecto/proyecto.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,14 +23,15 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     ExperienciaComponent,
     EducacionComponent,
     HyssComponent,
-    ProyectoComponent
+    ProyectoComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
     NgCircleProgressModule.forRoot({})
   ],
   exports: [ 
-    HeaderComponent,LogoAPComponent, SocialesComponent, BannerComponent,AcercaDeComponent,ExperienciaComponent,EducacionComponent,HyssComponent,ProyectoComponent
+    HeaderComponent,LogoAPComponent, SocialesComponent, BannerComponent,AcercaDeComponent,ExperienciaComponent,EducacionComponent,HyssComponent,ProyectoComponent,FooterComponent
   ]
 })
 export class ComponenteModule { }
