@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { LogoAPComponent } from './logo-ap/logo-ap.component';
-import { SocialesComponent } from './sociales/sociales.component';
 import { BannerComponent } from './banner/banner.component';
 import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
@@ -17,7 +16,6 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     HeaderComponent,
     LogoAPComponent,
-    SocialesComponent,
     BannerComponent,
     AcercaDeComponent,
     ExperienciaComponent,
@@ -31,7 +29,7 @@ import { FooterComponent } from './footer/footer.component';
     NgCircleProgressModule.forRoot({})
   ],
   exports: [ 
-    HeaderComponent,LogoAPComponent, SocialesComponent, BannerComponent,AcercaDeComponent,ExperienciaComponent,EducacionComponent,HyssComponent,ProyectoComponent,FooterComponent
+    HeaderComponent,LogoAPComponent, BannerComponent,AcercaDeComponent,ExperienciaComponent,EducacionComponent,HyssComponent,ProyectoComponent,FooterComponent
   ]
 })
 export class ComponenteModule { }

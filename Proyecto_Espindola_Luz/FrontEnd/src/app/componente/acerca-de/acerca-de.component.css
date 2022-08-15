@@ -1,6 +1,6 @@
-.row {
-  padding: 20px;
-}
+ .row {
+   padding: 20px; 
+} 
 div {
   background-color:#f3fdfd ;
   text-align: justify;
@@ -13,7 +13,7 @@ div {
       width: 20%;
       border-radius: 100%;
       box-shadow: 3px 3px 3px grey;
-      top: 350px;
+      top: 400px;
       left: 40%;
   }
 } 
@@ -24,7 +24,7 @@ div {
       width: 15%;
       border-radius: 100%;
       box-shadow: 3px 3px 3px grey;
-      top: 300px;
+      top: 400px;
       left: 3%;
   }
 }
